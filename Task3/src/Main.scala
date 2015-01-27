@@ -20,7 +20,7 @@ object Main {
     (true, null)
   }
 
-  def proof (map : Map[String, Boolean], depth : Int) {
+  def proofCollect (map : Map[String, Boolean], depth : Int) {
     if (depth == vars.size) {
       answer = new ArrayBuffer[Expression]()
       proofGen(map, expr)
@@ -28,8 +28,8 @@ object Main {
       tree += proof
       return
     }
-    proof(map.+((vars(depth), true)), depth +1)
-    proof(map.+((vars(depth), false)), depth +1)
+    proofCollect(map.+((vars(depth), true)), depth +1)
+    proofCollect(map.+((vars(depth), false)), depth +1)
   }
 
   def proofGen(map: Map[String, Boolean], expr: Expression): Boolean = {
@@ -162,7 +162,7 @@ object Main {
   }
 
   def main (args: Array[String]) {
-    val strs = Source.fromFile("input.txt").getLines().toArray
+    val strs = Source.fromFile("true6.in").getLines().toArray
     val out: PrintWriter = new PrintWriter("output.txt")
 
     val parser = new MyParser(strs(0))
@@ -177,7 +177,7 @@ object Main {
     }
 
     if(tautology()._1) {
-      proof(Map.empty, 0)
+      proofCollect(Map.empty, 0)
       ans().foreach(out.println(_))
     }
     else {
