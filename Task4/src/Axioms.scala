@@ -68,6 +68,7 @@ object Axioms {
         if (v == p1r) && (v == t2l) && (ap == t2r) && ap.expression.isInstanceOf[Variable] => 108
       case Implication(Conjunction(conl, ForAll(v, Implication(i2l, i2r))), i1r)
         if (conl == change(i2r, new Zero, v)) && (i1r == i2l) && (i2r == change(i1r, new Apostrophe(v), v)) => 13
+      case _ => -1
     }
   }
 
