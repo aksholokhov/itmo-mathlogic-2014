@@ -138,9 +138,9 @@ object Axioms {
               val neg1: Negation = impl4.right.asInstanceOf[Negation]
               if (impl3.right.isInstanceOf[Negation]) {
                 val neg2: Negation = impl3.right.asInstanceOf[Negation]
-                var fl1: Boolean = neg2.e == impl2.left
-                fl1 = fl1 && (neg2.e == impl4.left)
-                val fl2: Boolean = impl2.right == neg1.e
+                var fl1: Boolean = neg2.expression == impl2.left
+                fl1 = fl1 && (neg2.expression == impl4.left)
+                val fl2: Boolean = impl2.right == neg1.expression
                 return (fl1 && fl2)
               }
             }
@@ -156,9 +156,9 @@ object Axioms {
       val impl1: Implication = e.asInstanceOf[Implication]
       if (impl1.left.isInstanceOf[Negation]) {
         val neg1: Negation = impl1.left.asInstanceOf[Negation]
-        if (neg1.e.isInstanceOf[Negation]) {
-          val neg2: Negation = neg1.e.asInstanceOf[Negation]
-          return impl1.right == neg2.e
+        if (neg1.expression.isInstanceOf[Negation]) {
+          val neg2: Negation = neg1.expression.asInstanceOf[Negation]
+          return impl1.right == neg2.expression
         }
       }
     }
@@ -196,6 +196,171 @@ object Axioms {
         }
       }
     }
+    false
+  }
+
+  private def checkA1(e: Expression): Boolean = {
+    if (e.isInstanceOf[Implication]) {
+      val impl: Implication = e.asInstanceOf[Implication]
+      if (impl.left.isInstanceOf[Equals]) {
+        val eq1: Equals = impl.left.asInstanceOf[Equals]
+        if (impl.right.isInstanceOf[Equals]) {
+          val eq2: Equals = impl.right.asInstanceOf[Equals]
+          if (eq2.left.isInstanceOf[Apostrophe]) {
+            val a1: Apostrophe = eq2.left.asInstanceOf[Apostrophe]
+            if (eq2.right.isInstanceOf[Apostrophe]) {
+              val a2: Apostrophe = eq2.right.asInstanceOf[Apostrophe]
+              if (eq1.right.isInstanceOf[Variable] && eq1.left.isInstanceOf[Variable]) {
+                return (eq1.right == a2.expression) && (eq1.left == a1.expression)
+              }
+            }
+          }
+        }
+      }
+    }
+    return false
+  }
+
+  private def checkA2(e: Expression): Boolean = {
+    if (e.isInstanceOf[Implication]) {
+      val impl1: Implication = e.asInstanceOf[Implication]
+      if (impl1.left.isInstanceOf[Equals]) {
+        val eq1: Equals = impl1.left.asInstanceOf[Equals]
+        if (impl1.right.isInstanceOf[Implication]) {
+          val impl2: Implication = impl1.right.asInstanceOf[Implication]
+          if (impl2.left.isInstanceOf[Equals]) {
+            val eq2: Equals = impl2.left.asInstanceOf[Equals]
+            if (impl2.right.isInstanceOf[Equals]) {
+              val eq3: Equals = impl2.right.asInstanceOf[Equals]
+              if (eq1.left.isInstanceOf[Variable] && eq1.right.isInstanceOf[Variable] && eq2.right.isInstanceOf[Variable]) {
+                val fl1: Boolean = eq1.left == eq2.left
+                val fl2: Boolean = eq1.right == eq3.left
+                val fl3: Boolean = eq2.right == eq3.right
+                return fl1 && fl2 && fl3
+              }
+            }
+          }
+        }
+      }
+    }
+    return false
+  }
+
+  private def checkA3(e: Expression): Boolean = {
+    if (e.isInstanceOf[Implication]) {
+      val impl: Implication = e.asInstanceOf[Implication]
+      if (impl.left.isInstanceOf[Equals]) {
+        val eq1: Equals = impl.left.asInstanceOf[Equals]
+        if (impl.right.isInstanceOf[Equals]) {
+          val eq2: Equals = impl.right.asInstanceOf[Equals]
+          if (eq1.left.isInstanceOf[Apostrophe]) {
+            val a1: Apostrophe = eq1.left.asInstanceOf[Apostrophe]
+            if (eq1.right.isInstanceOf[Apostrophe]) {
+              val a2: Apostrophe = eq1.right.asInstanceOf[Apostrophe]
+              if (eq2.right.isInstanceOf[Variable] && eq2.left.isInstanceOf[Variable]) {
+                return (eq2.right == a2.expression) && (eq2.left == a1.expression)
+              }
+            }
+          }
+        }
+      }
+    }
+    return false
+  }
+
+  private def checkA4(e: Expression): Boolean = {
+    if (e.isInstanceOf[Negation]) {
+      val neg: Negation = e.asInstanceOf[Negation]
+      if (neg.expression.isInstanceOf[Equals]) {
+        val eq: Equals = neg.expression.asInstanceOf[Equals]
+        if (eq.left.isInstanceOf[Apostrophe]) {
+          val ap: Apostrophe = eq.left.asInstanceOf[Apostrophe]
+          return (eq.right.isInstanceOf[Zero] && ap.expression.isInstanceOf[Variable])
+        }
+      }
+    }
+    return false
+  }
+
+  private def checkA5(e: Expression): Boolean = {
+    if (e.isInstanceOf[Equals]) {
+      val eq: Equals = e.asInstanceOf[Equals]
+      if (eq.left.isInstanceOf[Plus] && eq.right.isInstanceOf[Apostrophe]) {
+        val p1: Plus = eq.left.asInstanceOf[Plus]
+        val ap1: Apostrophe = eq.right.asInstanceOf[Apostrophe]
+        if (ap1.expression.isInstanceOf[Plus]) {
+          val p2: Plus = ap1.expression.asInstanceOf[Plus]
+          if (p1.left.isInstanceOf[Variable] && p1.right.isInstanceOf[Apostrophe]) {
+            val ap2: Apostrophe = p1.right.asInstanceOf[Apostrophe]
+            if (ap2.expression.isInstanceOf[Variable]) {
+              return (ap2.expression == p2.right) && (p1.left == p2.left)
+            }
+          }
+        }
+      }
+    }
+    return false
+  }
+
+  private def checkA6(e: Expression): Boolean = {
+    if (e.isInstanceOf[Equals]) {
+      val eq: Equals = e.asInstanceOf[Equals]
+      if (eq.right.isInstanceOf[Variable] && eq.left.isInstanceOf[Plus]) {
+        val p: Plus = eq.left.asInstanceOf[Plus]
+        return p.right.isInstanceOf[Zero] && (p.left == eq.right)
+      }
+    }
+    return false
+  }
+
+  private def checkA7(e: Expression): Boolean = {
+    if (e.isInstanceOf[Equals]) {
+      val eq: Equals = e.asInstanceOf[Equals]
+      if (eq.right.isInstanceOf[Zero] && eq.left.isInstanceOf[Times]) {
+        val p: Times = eq.left.asInstanceOf[Times]
+        return p.right.isInstanceOf[Zero] && p.left.isInstanceOf[Variable]
+      }
+    }
+    return false
+  }
+
+  private def checkA8(e: Expression): Boolean = {
+    if (e.isInstanceOf[Equals]) {
+      val eq: Equals = e.asInstanceOf[Equals]
+      if (eq.left.isInstanceOf[Times] && eq.right.isInstanceOf[Plus]) {
+        val t1: Times = eq.left.asInstanceOf[Times]
+        val p: Plus = eq.right.asInstanceOf[Plus]
+        if (t1.left.isInstanceOf[Variable] && t1.right.isInstanceOf[Apostrophe]) {
+          val ap: Apostrophe = t1.right.asInstanceOf[Apostrophe]
+          if (ap.expression.isInstanceOf[Variable] && p.left.isInstanceOf[Times]) {
+            val t2: Times = p.left.asInstanceOf[Times]
+            return (t1.left == p.right) && (t1.left == t2.left) && (t1.right == t2.right)
+          }
+        }
+      }
+    }
+    return false
+  }
+
+  private def checkA9(e: Expression): Boolean = {
+    if (e.isInstanceOf[Implication]) {
+      val impl1: Implication = e.asInstanceOf[Implication]
+      if (impl1.left.isInstanceOf[Conjunction]) {
+        val conj: Conjunction = impl1.left.asInstanceOf[Conjunction]
+        if (conj.right.isInstanceOf[ForAll]) {
+          val forAll: ForAll = conj.right.asInstanceOf[ForAll]
+          val x: Variable = forAll.variable
+          if (forAll.expression.isInstanceOf[Implication]) {
+            val impl2: Implication = forAll.expression.asInstanceOf[Implication]
+            val ee: Expression = change(conj.left, new Zero, x)
+            val fl1: Boolean = conj.left == change(impl1.right, new Zero, x)
+            val fl2: Boolean = impl1.right == impl2.left
+            val fl3: Boolean = impl2.right == change(impl1.right, new Apostrophe(x), x)
+            return fl1 && fl2 && fl3
+          }
+        }
+      }
+    }
     return false
   }
 
@@ -206,9 +371,13 @@ object Axioms {
       case c : Conjunction => new Conjunction(change(c.left, a, x), change(c.right, a, x))
       case c : Disjunction => new Disjunction(change(c.left, a, x), change(c.right, a, x))
       case c : Implication => new Implication(change(c.left, a, x), change(c.right, a, x))
-      case n : Negation => new Negation(change(n.e, a, x))
+      case n : Negation => new Negation(change(n.expression, a, x))
       case s : Exists => new Exists(change(s.variable, a, x).asInstanceOf[Variable], change(s.expression, a, x))
       case s : ForAll => new ForAll(change(s.variable, a, x).asInstanceOf[Variable], change(s.expression, a, x))
+      case t : Equals => new Equals(change(t.left, a, x), change(t.right, a, x))
+      case t : Times => new Times(change(t.left, a, x), change(t.right, a, x))
+      case a : Apostrophe => new Apostrophe(change(a.expression, a, x))
+      case z : Zero => z
       case _ => null
     }
   }
@@ -226,6 +395,15 @@ object Axioms {
     if (axiom9(e)) return 9
     if (axiom10(e)) return 10
     if (axiom11(e)) return 11
+    if (checkA1(e)) return 101
+    if (checkA2(e)) return 102
+    if (checkA3(e)) return 103
+    if (checkA4(e)) return 104
+    if (checkA5(e)) return 105
+    if (checkA6(e)) return 106
+    if (checkA7(e)) return 107
+    if (checkA8(e)) return 108
+    if (checkA9(e)) return 13
      -1
   }
 }
