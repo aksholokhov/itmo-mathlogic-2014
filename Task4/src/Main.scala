@@ -245,7 +245,7 @@ object Main {
       case e : Exception => out.println(e.getMessage)
     }
     if (correct) {
-      
+
     }
   }
 }
