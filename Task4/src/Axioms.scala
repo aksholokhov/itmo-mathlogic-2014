@@ -14,8 +14,9 @@ object Axioms {
       case s: Exists => new Exists(change(s.variable, a, x).asInstanceOf[Variable], change(s.expression, a, x))
       case s: ForAll => new ForAll(change(s.variable, a, x).asInstanceOf[Variable], change(s.expression, a, x))
       case t: Equals => new Equals(change(t.left, a, x), change(t.right, a, x))
+      case p: Plus => new Plus(change(p.left, a, x), change(p.right, a, x))
       case t: Times => new Times(change(t.left, a, x), change(t.right, a, x))
-      case a: Apostrophe => new Apostrophe(change(a.expression, a, x))
+      case ap: Apostrophe => new Apostrophe(change(ap.expression, a, x))
       case z: Zero => z
       case _ => null
     }
@@ -59,7 +60,7 @@ object Axioms {
         if (v1 == e2l) && (v2 == e3l) && (v3 == e3r) => 102
       case Implication(Equals(Apostrophe(a1), Apostrophe(a2)), Equals(v1: Variable, v2: Variable))
         if (v1 == a1) && (v2 == a2) => 103
-      case Negation(Equals(Apostrophe(v: Variable)), z: Zero) => 104
+      case Negation(Equals(Apostrophe(v: Variable), z: Zero)) => 104
       case Equals(Plus(v1: Variable, Apostrophe(v2: Variable)), Apostrophe(p2: Plus))
         if (v2 == p2.right) && (v1 == p2.left) => 105
       case Equals(Plus(pl, z: Zero), v: Variable) if v == pl => 106
@@ -67,7 +68,7 @@ object Axioms {
       case Equals(Times(v: Variable, ap: Apostrophe), Plus(Times(t2l, t2r), p1r))
         if (v == p1r) && (v == t2l) && (ap == t2r) && ap.expression.isInstanceOf[Variable] => 108
       case Implication(Conjunction(conl, ForAll(v, Implication(i2l, i2r))), i1r)
-        if (conl == change(i2r, new Zero, v)) && (i1r == i2l) && (i2r == change(i1r, new Apostrophe(v), v)) => 13
+        if (conl == change(i2r, new Zero, v)) && (i1r == i2l) && (i2r == change(i1r, new Apostrophe(v), v)) => 12
       case _ => -1
     }
   }
@@ -454,10 +455,15 @@ object Axioms {
       if (impl.left.isInstanceOf[ForAll]) {
         val forall: ForAll = impl.left.asInstanceOf[ForAll]
         var expr: Expression = Main.getExchange(forall.expression, impl.right)
+     //   println("Exchange: " + '\n' + forall.expression + '\n' + impl.right + '\n' + expr)
+
         if (expr == null) {
           expr = forall.variable
         }
-        if (change(forall.expression, expr, forall.variable) == impl.right) {
+        val ee: Expression = change(forall.expression, expr, forall.variable)
+      //  println("Change: " + '\n' + forall.expression + '\n' + ee + '\n' + impl.right)
+
+        if (ee == impl.right) {
           return true
         }
       }

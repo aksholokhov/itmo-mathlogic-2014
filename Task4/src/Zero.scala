@@ -6,7 +6,7 @@ case class Zero() extends Expression{
   override def toString(): String = "0"
   override def equals(o: Any): Boolean = {
     o match {
-      case Zero => true
+      case z : Zero => true
       case _ => false
     }
   }
