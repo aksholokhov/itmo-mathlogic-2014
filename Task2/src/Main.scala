@@ -13,11 +13,11 @@ object Main {
   var alpha, beta: Expression = null
 
   def isMP(e : Expression, max : Int) : Boolean = {
-    for (j <- 0 to max-1) {
+    for (j <- max-1 to 0 by -1) {
       if (expressions(j).isInstanceOf[Implication]) {
         val t = expressions(j).asInstanceOf[Implication]
         if (t.right.equals(e)) {
-          for (k <- 0 to max - 1) {
+          for (k <- max - 1 to 0 by -1) {
             if (expressions(k).equals(t.left)) {
               answer+=new Implication(new Implication(alpha, expressions(k)), new Implication(new Implication(alpha, new Implication(expressions(k), e)), new Implication(alpha, e)))
               answer+=new Implication(new Implication(alpha, new Implication(expressions(k), e)), new Implication(alpha, e))
@@ -40,7 +40,7 @@ object Main {
   }
 
   def main (args: Array[String]) {
-    val strs = Source.fromFile("input.txt").getLines().toArray
+    val strs = Source.fromFile("good6.in").getLines().toArray
     val out: PrintWriter = new PrintWriter("output.txt")
     val contextStrings = strs(0).split(",")
     for (i <- 0 until contextStrings.length - 1) context += new MyParser(contextStrings(i)).parse(0)

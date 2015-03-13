@@ -134,9 +134,26 @@ object Main {
   }
 
 
-  def main (args: Array[String]) {
-    val strs = Source.fromFile("correct13.in").getLines().toArray
-    val out: PrintWriter = new PrintWriter("output.txt")
+  def main(args: Array[String]) {
+   /* println("correct:")
+    for (i <- 5 to 13 if i != 11) {
+      val strs = Source.fromFile("correct" + i + ".in").getLines().toArray
+      println(i + ": " + calc(strs, null))
+    }
+
+    println('\n' + "incorrect:")
+    //val out: PrintWriter = new PrintWriter("output.txt")
+    for (i <- (1 to 11)) {
+      val strs = Source.fromFile("incorrect" + i + ".in").getLines().toArray
+      println(i + ": " + calc(strs, null))
+    } */
+   val strs = Source.fromFile("incorrect" + 2 + ".in").getLines().toArray
+    println(calc(strs, null))
+
+
+  }
+
+  def calc (strs: Array[String], out: PrintWriter): String = {
 
     val con = strs(0).split("\\|-")
     beta = new MyParser(con.last).parse
@@ -156,7 +173,7 @@ object Main {
             val term = getExchange(forall.expression, right)
             val v1 = getChainedVariables(forall)
             val v2 = getVariables(term)
-            println("Exchange: " + '\n' + term + '\n' + v1 + " " + v2)
+         //   println("Exchange: " + '\n' + term + '\n' + v1 + " " + v2)
             if (term != null && !forall.variable.equals(term)) {
               v2.foreach(x =>
                 if (v1.contains(x)) {
@@ -220,7 +237,7 @@ object Main {
                       case Implication(left2, right2) =>
                         if ((left == left2) && (right.expression == right2)) {
                           if (getFreeVariables(left, new ArrayBuffer[Variable]()).contains(right.variable)) {
-                            println("err4 " + getFreeVariables(left, new ArrayBuffer[Variable]()))
+                         //   println("err4 " + getFreeVariables(left, new ArrayBuffer[Variable]()))
                             throw new Exception("Вывод некорректен начиная с формулы " +
                               num + ": " + "переменная " + right.variable +
                               " входит свободно в формулу " + left)
@@ -253,21 +270,22 @@ object Main {
         }
       }
       if (correct) {
-        out.println("Доказательство корректно")
+        return "Доказательство корректно"
       } else {
-        out.println("Вывод некорректен начиная с формулы " + stopNumber)
+        return "Вывод некорректен начиная с формулы " + stopNumber
       }
     }
     catch  {
       case e : Exception =>
-        println("err")
-        out.println(e.getMessage)
+        //println("err")
+        return e.getMessage
     //    e.printStackTrace()
 
     }
-    out.close()
+    //out.close()
     if (correct) {
 
     }
+    ""
   }
 }

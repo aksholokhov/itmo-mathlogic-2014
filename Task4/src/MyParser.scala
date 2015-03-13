@@ -100,7 +100,7 @@ class MyParser {
 
       val terms = new ArrayBuffer[Expression]
       index += 1
-      var ll: Int = index
+      var ll = index
       while (index <= r - 1) {
         if (expr(index) == ',' || index == r - 1) {
           terms += term(ll, index)
@@ -166,7 +166,8 @@ class MyParser {
     if (expr(l) == '(') {
       return term(l + 1, r - 1)
     }
-    val name = vari(l, r).toString
+    val name = vari(l, r).asInstanceOf[Variable].name
+    //println("var: " + name+ " " + name.length + " "+ l + " " + r)
     if (l + name.length == r) {
       return new Variable(name)
     }
@@ -175,22 +176,25 @@ class MyParser {
     index += 1
     var ll = index
 
-    while (index <= r - 1) {
-      if (expr(index) == ',' || index == r - 1) {
+    println("terms: " + expr(index))
+
+    while (index <= r) {
+      if (expr(index) == ',' || index == r) {
         terms += term(ll, index)
         ll = index + 1
       }
       index += 1
     }
+    println("Pred: " + name + "(" + terms+ ")")
     new Predicate(name, terms)
   }
 
   private def vari(l: Int, r: Int): Expression = {
     var name = ""
     var index = l
-    while (index < r && (Character.isDigit(expr.charAt(index)) ||
-      (Character.isAlphabetic(expr.charAt(index)) &&
-        Character.isLowerCase(expr.charAt(index))))) {
+    while (index < r && (Character.isDigit(expr(index)) ||
+      (Character.isAlphabetic(expr(index)) &&
+        Character.isLowerCase(expr(index))))) {
       name += expr.charAt(index)
       index += 1
     }

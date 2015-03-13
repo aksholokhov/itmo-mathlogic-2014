@@ -7,6 +7,8 @@ case class Variable(name : String) extends Expression {
   override def equals(o: Any): Boolean = {
     o match {
       case n : Variable => name.equals(n.name)
+      case Plus(z : Zero, v: Variable) => name.equals(v.name)
+      case Plus(v: Variable, z: Zero) => name.equals(v.name)
       case _ => false
     }
   }
