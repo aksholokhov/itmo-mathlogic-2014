@@ -10,9 +10,9 @@ case class Predicate(name : String, terms : ArrayBuffer[Expression]) extends Exp
     if (terms != null && terms.size != 0) {
       s += "("
     }
-    if (terms != null) {
+    if (terms != null && terms.size != 0) {
       terms.foreach(t => s += t + ",")
-      s.dropRight(1)
+      //s = s.dropRight(1)
     }
     if (terms != null && terms.size != 0) {
       s += ")"

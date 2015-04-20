@@ -10,6 +10,7 @@ class MyParser {
   }
 
   private def impl(l: Int, r: Int): Expression = {
+    if ((r == l)&(l == 0)) return null
     var balance = 0
     for (i <- l until r) {
       expr(i) match {
@@ -57,6 +58,7 @@ class MyParser {
   }
 
   private def unary(l: Int, r: Int): Expression = {
+    println(expr);
     if (expr(l) == '!') {
       return new Negation(unary(l + 1, r))
     }
@@ -68,7 +70,7 @@ class MyParser {
         expr(i) match {
           case '(' => balance += 1
           case ')' => balance -= 1
-          case '&' if balance == 0 => fl = false
+          case _ if balance == 0 => fl = false
           case _ => ;
         }
         if (fl) {
@@ -89,8 +91,8 @@ class MyParser {
 
   private def pred(l: Int, r: Int): Expression = {
     if (Character.isAlphabetic(expr(l)) && Character.isUpperCase(expr(l))) {
-      var name = ""
-      var index = l
+      var name = "" + expr(l)
+      var index = l + 1
       while (index < r && (Character.isDigit(expr(index)) ||
         (Character.isAlphabetic(expr(index)) &&
           Character.isUpperCase(expr(index))))) {
@@ -99,14 +101,36 @@ class MyParser {
       }
 
       val terms = new ArrayBuffer[Expression]
-      index += 1
-      var ll: Int = index
-      while (index <= r - 1) {
-        if (expr(index) == ',' || index == r - 1) {
-          terms += term(ll, index)
-          ll = index + 1
-        }
+      if (index < r && expr(index) == '(' && expr(r - 1) == ')') {
         index += 1
+        var ll = index
+        var balance = 0;
+        while (index <= r - 1) {
+         /* if (expr(index) == ',' || index == r - 1) {
+            val internTerm = term(ll, index)
+            terms += internTerm
+            ll = index + 1
+          }
+          index += 1 */
+          val c = expr(index)
+          c match {
+            case _ if index == r - 1 =>  {
+              val internTerm = term(ll, index)
+              terms += internTerm
+              ll = index + 1
+            }
+            case '(' => balance += 1
+            case ')' => balance -= 1
+            case ',' if balance == 0 => {
+              val internTerm = term(ll, index)
+              terms += internTerm
+              ll = index + 1
+            }
+
+            case _ => ;
+          }
+          index += 1;
+        }
       }
       return new Predicate(name, terms)
     }
@@ -163,34 +187,42 @@ class MyParser {
     if (expr(l) == '0') {
       return new Zero
     }
-    if (expr(l) == '(') {
+    if (expr(l) == '(' && expr(r - 1) == ')') {
       return term(l + 1, r - 1)
     }
-    val name = vari(l, r).toString
-    if (l + name.length == r) {
-      return new Variable(name)
-    }
+    val name = vari(l, r).asInstanceOf[Variable].name
+    //println("var: " + name+ " " + name.length + " "+ l + " " + r)
     val terms = new ArrayBuffer[Expression]
     var index = l + name.length
-    index += 1
-    var ll = index
 
-    while (index <= r - 1) {
-      if (expr(index) == ',' || index == r - 1) {
-        terms += term(ll, index)
-        ll = index + 1
-      }
+    if (index < r && expr(index) == '(' && expr(r - 1) == ')') {
+     // println("terms: " + expr(index))
+
       index += 1
+      var ll = index
+
+      for (i <- index until r) {
+        if (expr(i) == ',' || i == r - 1) {
+          terms += term(ll, i)
+          ll = i + 1
+        }
+      }
     }
-    new Predicate(name, terms)
+    println("Pred: " + name + "(" + terms+ ")")
+
+    if (terms.length == 0) {
+      new Variable(name)
+    } else {
+      new Function(name, terms)
+    }
   }
 
   private def vari(l: Int, r: Int): Expression = {
     var name = ""
     var index = l
-    while (index < r && (Character.isDigit(expr.charAt(index)) ||
-      (Character.isAlphabetic(expr.charAt(index)) &&
-        Character.isLowerCase(expr.charAt(index))))) {
+    while (index < r && (Character.isDigit(expr(index)) ||
+      (Character.isAlphabetic(expr(index)) &&
+        Character.isLowerCase(expr(index))))) {
       name += expr.charAt(index)
       index += 1
     }

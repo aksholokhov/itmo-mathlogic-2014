@@ -12,11 +12,11 @@ object Main {
   var expressions: Array[(Expression, Int)] = null
 
   def mpVerifyTo(e : Expression, max : Int) : (Boolean, Int, Int) = {
-    for (j <- 0 to max-1) {
+    for (j <- max-1 to 0 by -1) {
       if (expressions(j)._1.isInstanceOf[Implication]) {
         val t = expressions(j)._1.asInstanceOf[Implication]
         if (t.right.equals(e)) {
-          for (k <- 0 to max - 1) {
+          for (k <- max - 1 to 0 by -1) {
             if (expressions(k)._1.equals(t.left)) {
               return (true, k, j)
             }
