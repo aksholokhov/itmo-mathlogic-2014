@@ -16,6 +16,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-library (1)" level="application" />
+<<<<<<< HEAD
     <orderEntry type="library" name="scala-sdk-2.11.5" level="application" />
+=======
+>>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
   </component>
 </module>

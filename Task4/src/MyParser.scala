@@ -101,7 +101,17 @@ class MyParser {
       }
 
       val terms = new ArrayBuffer[Expression]
+<<<<<<< HEAD
       if (index < r && expr(index) == '(' && expr(r - 1) == ')') {
+=======
+      index += 1
+      var ll = index
+      while (index <= r - 1) {
+        if (expr(index) == ',' || index == r - 1) {
+          terms += term(ll, index)
+          ll = index + 1
+        }
+>>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
         index += 1
         var ll = index
         var balance = 0;
@@ -192,12 +202,28 @@ class MyParser {
     }
     val name = vari(l, r).asInstanceOf[Variable].name
     //println("var: " + name+ " " + name.length + " "+ l + " " + r)
+<<<<<<< HEAD
+=======
+    if (l + name.length == r) {
+      return new Variable(name)
+    }
+>>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
     val terms = new ArrayBuffer[Expression]
     var index = l + name.length
 
+<<<<<<< HEAD
     if (index < r && expr(index) == '(' && expr(r - 1) == ')') {
      // println("terms: " + expr(index))
 
+=======
+    println("terms: " + expr(index))
+
+    while (index <= r) {
+      if (expr(index) == ',' || index == r) {
+        terms += term(ll, index)
+        ll = index + 1
+      }
+>>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
       index += 1
       var ll = index
 
@@ -215,6 +241,11 @@ class MyParser {
     } else {
       new Function(name, terms)
     }
+<<<<<<< HEAD
+=======
+    println("Pred: " + name + "(" + terms+ ")")
+    new Predicate(name, terms)
+>>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
   }
 
   private def vari(l: Int, r: Int): Expression = {

@@ -148,8 +148,12 @@ object Main {
       println(i + ": " + calc(strs, null))
     } */
    val strs = Source.fromFile("incorrect" + 2 + ".in").getLines().toArray
+<<<<<<< HEAD
    val e = new MyParser(strs(0)).parse
     println(e)
+=======
+    println(calc(strs, null))
+>>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
 
 
   }
