@@ -1,20 +1,16 @@
 
   sealed trait Ordinal
 
-  case class equ(l: Ordinal, r: Ordinal) extends Ordinal{
-    override def toString: String = l.toString + "=" + r.toString
-  }
-
   case class add(l: Ordinal, r: Ordinal) extends Ordinal{
-    override def toString: String = l.toString + "+" + r.toString
+    override def toString: String = "(" + l.toString + "+" + r.toString + ")"
   }
 
   case class mul(l: Ordinal, r: Ordinal) extends Ordinal{
-    override def toString: String = l.toString + "*" + r.toString
+    override def toString: String = "(" + l.toString + "*" + r.toString + ")"
   }
 
   case class pow(l: Ordinal, r: Ordinal) extends Ordinal{
-    override def toString: String = l.toString + "^" + r.toString
+    override def toString: String = "(" + l.toString + "^" + r.toString + ")"
   }
 
   case class Num(v : Integer) extends Ordinal {
@@ -26,7 +22,13 @@
   }
 
 
-  sealed trait CNF {
+  sealed trait CNF extends Ordered[CNF]{
+
+    def compare(that: CNF): Int = {
+      //TODO: finish CNF comparing, all are equal now
+      0
+    }
+
     case class Atom(n : Integer) extends CNF {
       override def toString: String = n.toString
     }
@@ -44,6 +46,19 @@
           .mkString("+") + (if (atom == zero) "" else "+" + atom.toString)
 
     }
+
+    def first: CNF = this match {
+      case e : Atom => e
+      case CList(list, p) => CList(list.head :: Nil, zero)
+    }
+
+    def last: CNF = this match {
+      case e : Atom => e
+      case CList(list, p) if list.length == 1 => p //WHY?
+      case CList(list, p) => CList(list.tail, p)
+    }
+
+    
   }
 
 

@@ -3,25 +3,23 @@ import scala.util.parsing.combinator.RegexParsers
 
 
 class OrdinalParser extends RegexParsers {
-  val nums = "[0..9]+".r
+  val number = "[0-9]+".r^^{x=>Num(x.toInt)}
+  val w = "w"^^(_ => W())
 
-  def equation: Parser[equ] = expr ~ "=" ~ expr ^^ {
-    case a ~ "=" ~ b => equ(a, b);
+  def expr: Parser[Ordinal] = (addable ~ opt("+" ~ expr)) ^^ {
+    case a ~ None => a
+    case a ~ Some(op ~ b) => add(a, b)
   }
 
-  def expr: Parser[Ordinal] = addable | (expr ~ "+" ~ addable) ^^ {
-    case a ~ "+" ~ b => add(a, b)
+  def addable: Parser[Ordinal] =  (mullable ~ opt("*" ~ addable)) ^^ {
+    case a ~ None => a
+    case a ~ Some(op ~ b) => mul(a, b)
   }
 
-  def addable: Parser[Ordinal] = mullable | (addable ~ "*" ~ mullable) ^^ {
-    case a ~ "*" ~ b => mul(a, b)
+  def mullable: Parser[Ordinal] = (term ~ opt("^" ~ term)) ^^ {
+    case a ~ None => a
+    case a ~ Some(op ~ b) => pow(a, b)
   }
 
-  def mullable: Parser[Ordinal] = term | (mullable ~ "^" ~ term) ^^ {
-    case a ~ "^" ~ b => pow(a, b)
-  }
-
-  def term: Parser[Ordinal] = nums ^^(x => Num(x.toInt)) |
-    "w" ^^ {_ => W()} |
-    "(" ~ expr ~ ")" ^^ {case _ ~ e ~ _ => e}
+  def term: Parser[Ordinal] = number | w | "(" ~ expr ~ ")" ^^ {case _ ~ e ~ _ => e}
 }
