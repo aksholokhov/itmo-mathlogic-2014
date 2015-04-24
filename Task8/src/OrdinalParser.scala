@@ -1,7 +1,5 @@
 import scala.util.parsing.combinator.RegexParsers
 
-
-
 class OrdinalParser extends RegexParsers {
   val number = "[0-9]+".r^^{x=>Num(x.toInt)}
   val w = "w"^^(_ => W())
