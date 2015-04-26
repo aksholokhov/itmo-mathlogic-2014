@@ -1,16 +1,61 @@
-import scala.language.reflectiveCalls
 
-class Main extends App {
 
-  val str = "w^(w*2+3)=2*(3^w+5^w)".split("\\=")
-  val parser = new OrdinalParser
-  println(parser.parseAll(parser.expr, str(0)))
-  println(parser.parseAll(parser.expr, str(1)))
+class Main {
+    object CNF {
+    def addPair(pair: (CNF, Int), b: CNF): CNF = b match {
+      case t: Atom => CList(List(pair), t)
+      case CList(list, t) => CList(pair :: list, t)
+    }
 
-  sealed trait CNF extends Ordered[CNF] {
-    def compare(that: CNF): Int = {
-      //TODO: finish CNF comparing, all are equal now
-      0
+    def exp1(t: Atom, b: CNF): CNF = b match {
+      case a if fe(b) == one => CList(
+        List((Atom(fc(b)), t.n ^ rest(b).asInstanceOf[Atom].n )),
+        zero
+      )
+      case a if rest(b).isInstanceOf[Atom] => CList(
+        List((
+          CList(
+            List((fe(b) - one, fc(b))),
+            zero),
+          t.n ^ rest(b).asInstanceOf[Atom].n)),
+        zero)
+      case _ =>
+        val p: CNF = exp1(t, rest(b))
+        CList(
+          List((addPair((fe(b) - one, fc(b)), fe(p)), fc(p))),
+          zero
+        )
+    }
+
+    def exp2(a: CNF, q: Atom): CNF = q match {
+      case `one` => a
+      case Atom(n) => CList(List((fe(a) * Atom(n-1), 1)), zero) * a
+    }
+
+    def exp3(a: CNF, q: Atom): CNF = q match {
+      case `zero` => one
+      case `one` => a
+      case x if limitp(a) => exp2(a, q)
+      case Atom(n) => exp3(a, Atom(n - 1)) * a
+    }
+
+    def exp4(a: CNF, b: CNF): CNF = CList(List((fe(a) * limitpart(b), 1)), zero) * exp3(a, natpart(b))
+
+    }
+
+   sealed trait CNF extends Ordered[CNF] {
+    def compare(that: CNF): Int = this match {
+      case Atom(n) => this match {
+        case Atom(m) => n.compareTo(m)
+        case _ => -1
+      }
+      case CList(_,_) if (that match {
+        case Atom(_) => true
+        case _ => false
+      }) => 1
+      case CList(_,_) if fe(this) != fe(that) => fe(this).compare(fe(that))
+      case CList(_,_) if fc(this) != fc(that) => fc(this).compare(fc(that))
+      case _ => rest(this).compare(rest(that))
     }
 
 
@@ -150,34 +195,6 @@ class Main extends App {
     case _ => natpart(rest(a))
   }
 
-  def addPair(pair: (CNF, Int), b: CNF): CNF = b match {
-    case t: Atom => CList(List(pair), t)
-    case CList(list, t) => CList(pair :: list, t)
-  }
-
-  def exp1(t: Atom, b: CNF): CNF = b match {
-    case a if rest(b).isInstanceOf[Atom] => CList(
-      List(
-        CList(
-          List((fe(b) - one, fc(b))),
-          zero),
-        math.pow(t.n, rest(b).asInstanceOf[Atom].n)),
-      zero)
-  }
-
-  def exp2(a: CNF, q: Atom): CNF = q match {
-    case `one` => a
-    case Atom(n) => CList(List((fe(a) * Atom(n-1), 1)), zero) * a
-  }
-
-  def exp3(a: CNF, q: Atom): CNF = q match {
-    case `zero` => one
-    case `one` => a
-    case x if limitp(a) => exp2(a, q)
-    case Atom(n) => exp3(a, Atom(n - 1)) * a
-  }
-
-  def exp4(a: CNF, b: CNF): CNF = CList(List((fe(a) * limitpart(b), 1)), zero) * exp3(a, natpart(b))
 
   def ordToCantor(o: Ordinal): CNF = o match {
     case W() => CList(List((one, 1)), zero)
@@ -187,6 +204,14 @@ class Main extends App {
     case pow(a, b) => ordToCantor(a) ^ ordToCantor(b)
   }
 
-  def parseOrd(s: String) = ordToCantor(parser.parseAll(parser.expr, s).get)
-  def intToAtom(i: Int) = parseOrd(i.toString).asInstanceOf[Atom]
+ def main(args: Array[String]) {
+    val str = "w^(w*2+3)=2*(3^w+5^w)".split("\\=")
+    val parser = new OrdinalParser
+
+    val ord1 = parser.parseAll(parser.expr, str(0)).get
+    val ord2 = parser.parseAll(parser.expr, str(1)).get
+    println(ord1)
+    println(ord2)
+  }
+
 }
