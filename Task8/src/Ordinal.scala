@@ -22,19 +22,19 @@
   }
 
   case class Atom(n: Int) extends CNF {
-    override def toString: String = n.toString
+    override def toString: String = "(" + n.toString + ")"
   }
 
 
   case class CList(list: List[(CNF, Int)], atom: Atom) extends CNF {
     if (list.size == 0) throw new Exception("nil in CList")
-
-    override def toString: String =
+    //TODO: Fix CList.toString (StackOverflow)
+  /*  override def toString: String =
       list.map(p => "(w " + (if (p._1 == Atom(1)) ""
       else "^(" + p._1.toString + ")"
         + (if (p._2 == 1) "" else "*" + p._2.toString)
         + ")"))
-        .mkString("+") + (if (atom == Atom(0)) "" else "+" + atom.toString)
+        .mkString("+") + (if (atom == Atom(0)) "" else "+" + atom.toString) */
 
   }
 
@@ -52,7 +52,7 @@
     }
 
     def compare(that: CNF): Int = this match {
-      case Atom(n) => this match {
+      case Atom(n) => that match {
         case Atom(m) => n.compareTo(m)
         case _ => -1
       }
@@ -117,7 +117,7 @@
     }
 
     def rest(a: CNF): CNF = a match {
-      case e: Atom => ???
+      case e: Atom => throw new Exception("atom in rest")
       case CList(list, p) if list.length == 1 => p //WHY?
       case CList(list, p) => CList(list.tail, p)
     }
@@ -169,8 +169,8 @@
 
     def limitpart(a: CNF): CNF = a match {
       case Atom(n) => Atom(0)
-      case CList(_, _) => first(a) match {
-        case p@CList(list, _) => limitpart(p) match {
+      case CList(_, _) => first(this) match {
+        case CList(list, _) => limitpart(rest(this)) match {
           case n: Atom => CList(list, n)
           case CList(list2, n) => CList(list ::: list2, n)
         }
