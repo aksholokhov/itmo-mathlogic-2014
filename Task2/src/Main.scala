@@ -40,15 +40,20 @@ object Main {
   }
 
   def main (args: Array[String]) {
-    val strs = Source.fromFile("good6.in").getLines().toArray
+    val strs = Source.fromFile("contra2.in").getLines().toArray
     val out: PrintWriter = new PrintWriter("output.txt")
     val contextStrings = strs(0).split(",")
     for (i <- 0 until contextStrings.length - 1) context += new MyParser(contextStrings(i)).parse(0)
-    for (i <- 1 until strs.length - 1) expressions += new MyParser(strs(i)).parse(0)
-    alpha = contextStrings(contextStrings.length-1).split("\\|-").map(new MyParser(_).parse(0)).take(1)(0)
+    for (i <- 1 until strs.length) expressions += new MyParser(strs(i)).parse(0)
+    val t = contextStrings(contextStrings.length-1).split("\\|-").map(new MyParser(_).parse(0)).take(2)
+    alpha = t(0)
+    beta = t(1)
     var correct = true
     var counter = 0
 
+    context.map(s => out.print(s) + ", ")
+    out.print("|-" + alpha + "->" + beta)
+    out.println()
     for (e<-expressions if correct) {
       correct = false
       counter += 1
@@ -58,6 +63,7 @@ object Main {
           answer += new Implication(new Implication(alpha, new Implication(alpha, alpha)), new Implication(new Implication(alpha, new Implication(new Implication(alpha, alpha), alpha)), new Implication(alpha, alpha)))
           answer += new Implication(new Implication(alpha, new Implication(new Implication(alpha, alpha), alpha)), new Implication(alpha, alpha))
           answer += new Implication(alpha, new Implication(new Implication(alpha, alpha), alpha))
+          answer += new Implication(alpha, alpha)
           correct = true
         } else {
           correct = isMP(e, counter)
