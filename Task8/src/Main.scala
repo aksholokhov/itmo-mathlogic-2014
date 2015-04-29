@@ -2,7 +2,16 @@ import scala.io.Source
 
 object Main {
   def main(args: Array[String]): Unit = {
-    tester("tests.txt")
+    //tester("tests.txt")
+    val str = Source.fromFile("test2").getLines().toArray
+    val parser = new OrdinalParser
+    val a = parser.parseAll(parser.expr, str(0).split("\\=")(0)).get
+    val b = parser.parseAll(parser.expr, str(0).split("\\=")(1)).get
+    val z = Atom(0)
+    z.ordToCantor(a).compare(z.ordToCantor(b)) match {
+      case 0 => println("Равны")
+      case _ => println("Не равны")
+    }
   }
 
   def tester(file: String) = {

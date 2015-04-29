@@ -14,7 +14,7 @@ class OrdinalParser extends RegexParsers {
     case a ~ Some(op ~ b) => mul(a, b)
   }
 
-  def mullable: Parser[Ordinal] = (term ~ opt("^" ~ term)) ^^ {
+  def mullable: Parser[Ordinal] = (term ~ opt("^" ~ mullable)) ^^ {
     case a ~ None => a
     case a ~ Some(op ~ b) => pow(a, b)
   }

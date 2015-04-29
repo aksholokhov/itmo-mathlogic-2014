@@ -28,7 +28,6 @@
 
   case class CList(list: List[(CNF, Int)], atom: Atom) extends CNF {
     if (list.size == 0) throw new Exception("nil in CList")
-    //TODO: Fix CList.toString (StackOverflow)
   /*  override def toString: String =
       list.map(p => "(w " + (if (p._1 == Atom(1)) ""
       else "^(" + p._1.toString + ")"
