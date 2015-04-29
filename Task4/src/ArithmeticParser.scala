@@ -1,23 +1,29 @@
 import scala.util.parsing.combinator.RegexParsers
 
 class ArithmeticParser extends RegexParsers {
-  val nums = "[0..9]+".r
+  val numbers = "[0..9]+".r
   val charsL = "[a..z]".r
   val charsB = "[A..Z]".r
-
-  def expression: Parser[Expression] = addable | (expr ~ "+" ~ addable) ^^ {
-    case a ~ "+" ~ b => add(a, b)
+k
+  def expression: Parser[Expression] = (disjunction ~ opt("->" ~ expression)) ^^ {
+    case a ~ None => a
+    case a ~ Some(op ~ b) => Implication(a, b)
   }
 
-  def addable: Parser[Ordinal] = mullable | (addable ~ "*" ~ mullable) ^^ {
-    case a ~ "*" ~ b => mul(a, b)
+  def disjunction: Parser[Disjunction] =  (conjunction ~ opt("|" ~ disjunction)) ^^ {
+    case a ~ None => a
+    case a ~ Some(op ~ b) => Disjunction(a, b)
   }
 
-  def mullable: Parser[Ordinal] = term | (mullable ~ "^" ~ term) ^^ {
-    case a ~ "^" ~ b => pow(a, b)
+  def conjunction: Parser[Conjunction] = (unary ~ opt("&" ~ conjunction)) ^^ {
+    case a ~ None => a
+    case a ~ Some(op ~ b) => Conjunction(a, b)
   }
 
-  def term: Parser[Ordinal] = nums ^^(x => Num(x.toInt)) |
-    "w" ^^ {_ => W()} |
-    "(" ~ expr ~ ")" ^^ {case _ ~ e ~ _ => e}
+  def unary: Parser[Expression] = predicate | (("!" ~ unary) ^^ {case op ~ a => Negation(a)}) | ("(" ~ expression ~ ")") ^^ {
+    case "(" ~ a ~ ")" => a
+  }
+
+
+  def term: Parser[Ordinal] = number | w | "(" ~ expr ~ ")" ^^ {case _ ~ e ~ _ => e}
 }
