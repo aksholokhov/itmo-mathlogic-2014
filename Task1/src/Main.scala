@@ -31,7 +31,7 @@ object Main {
 
   
   def main (args: Array[String]) {
-    val strs = Source.fromFile("maxtest1.in").getLines().toArray
+    val strs = Source.fromFile("good6.in").getLines().toArray
     val out: PrintWriter = new PrintWriter("output.txt")
 
     expressions = strs.map(new MyParser(_).parse(0)).zip(1 to strs.length)

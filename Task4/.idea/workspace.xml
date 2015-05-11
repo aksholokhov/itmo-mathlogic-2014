@@ -1,136 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Predicate.scala" line="9" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0d2a7a4-a3b0-481b-bfec-0a04669d0aec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Function.scala" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5$$anonfun$apply$5.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Conjunction$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$tautology$1$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Implication$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\.idea\libraries\scala_compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\ExcludedMiddle.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$5.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task1\src\Axioms2.scala" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\MyParser.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$tautology$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5$$anonfun$apply$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$11.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$13.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Disjunction.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Variable.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Conjunction.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\ExcludedMiddle$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$main$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Disjunction$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Deduction$$anonfun$isInContextOrAx$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Deduction$$anonfun$isMP$1$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5$$anonfun$apply$1$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$15.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$12.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Implication.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Deduction$$anonfun$getProof$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$10.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$main$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$4.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$main$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\MyParser$$anonfun$parse$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$ans$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$tautology$1$$anonfun$apply$mcVI$sp$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$6.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Deduction.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$8.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task1\out\production\Task1\Main$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Deduction$$anonfun$getProof$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\src\ExcludedMiddle.scala" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$9.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task1\out\production\Task1\Main$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Expression.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Negation$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Negation.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Variable$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\MyParser$$anonfun$parse$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Axioms$.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\MyParser$$anonfun$parse$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$7.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\BinOp.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Main$$anonfun$proofGen$14.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Deduction$$anonfun$isMP$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task3\out\production\Task3\Axioms.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\GDrive\Documents\University\Math. logic\logic2014\Task4\out\production\Task4\Main$$anonfun$main$5.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$pred$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$pred$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Axioms.class" afterPath="$PROJECT_DIR$/out/production/Task4/Axioms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$MyParser$$term$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$MyParser$$term$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_library2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_library2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getChainedVariables$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getChainedVariables$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Task3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incorrect2.in" afterPath="$PROJECT_DIR$/incorrect2.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Variable.class" afterPath="$PROJECT_DIR$/out/production/Task4/Variable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/out/production/Task2/Main$.class" afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$unary$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$unary$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predicate.scala" afterPath="$PROJECT_DIR$/src/Predicate.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Main$.class" afterPath="$PROJECT_DIR$/out/production/Task4/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Variable.scala" afterPath="$PROJECT_DIR$/src/Variable.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Main.class" afterPath="$PROJECT_DIR$/out/production/Task4/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Axioms$$anonfun$change$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Axioms$$anonfun$change$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/output.txt" afterPath="$PROJECT_DIR$/../Task1/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Axioms$.class" afterPath="$PROJECT_DIR$/out/production/Task4/Axioms$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task3/Task3.iml" afterPath="$PROJECT_DIR$/../Task3/Task3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$plus$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$plus$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Predicate.class" afterPath="$PROJECT_DIR$/out/production/Task4/Predicate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/src/Main.scala" afterPath="$PROJECT_DIR$/../Task1/src/Main.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task3/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Task3/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/out/production/Task1/Main$.class" afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Predicate$$anonfun$equals$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Predicate$$anonfun$equals$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task4.iml" afterPath="$PROJECT_DIR$/Task4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task3/.idea/libraries/scala_library.xml" afterPath="$PROJECT_DIR$/../Task3/.idea/libraries/scala_library.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$conj$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$conj$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getVariables$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getVariables$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getExchange$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getExchange$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/out/production/Task2/Axioms.class" afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/Axioms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getFreeVariables$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Main$$anonfun$getFreeVariables$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Predicate$$anonfun$toString$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/Predicate$$anonfun$toString$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/out/production/Task1/Main$$anonfun$mpVerifyTo$1.class" afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Main$$anonfun$mpVerifyTo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/out/production/Task2/Main$$anonfun$isMP$1.class" afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/Main$$anonfun$isMP$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$MyParser$$impl$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$MyParser$$impl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$MyParser$$disj$1.class" afterPath="$PROJECT_DIR$/out/production/Task4/MyParser$$anonfun$MyParser$$disj$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/src/Axioms.scala" afterPath="$PROJECT_DIR$/../Task2/src/Axioms.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_library.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_library.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/out/production/Task1/Axioms.class" afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Axioms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Task4/Predicate$.class" afterPath="$PROJECT_DIR$/out/production/Task4/Predicate$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task3/src/Axioms.scala" afterPath="$PROJECT_DIR$/../Task3/src/Axioms.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyParser.scala" afterPath="$PROJECT_DIR$/src/MyParser.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/out/production/Task2/Axioms$.class" afterPath="$PROJECT_DIR$/../Task2/out/production/Task2/Axioms$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/out/production/Task1/Main$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Main$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/output.txt" afterPath="$PROJECT_DIR$/../Task2/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task2/src/Main.scala" afterPath="$PROJECT_DIR$/../Task2/src/Main.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.scala" afterPath="$PROJECT_DIR$/src/Main.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Task1/out/production/Task1/Axioms$.class" afterPath="$PROJECT_DIR$/../Task1/out/production/Task1/Axioms$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_compiler2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_compiler2.xml" />
-    </list>
+    <list default="true" id="ef7a0fd9-341a-4231-97ba-dd0947558468" name="Default" comment="" />
     <ignored path="Task4.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -154,248 +25,162 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Predicate.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Predicate.scala">
+      <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Statement.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-=======
-            <state vertical-scroll-proportion="0.11584327" vertical-offset="3859" max-vertical-offset="4981">
-              <caret line="235" column="36" selection-start-line="235" selection-start-column="36" selection-end-line="235" selection-end-column="36" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+            <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2718">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Axioms.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Axioms.scala">
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="8126">
-=======
-      <file leaf-file-name="Axioms.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Axioms.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="8126">
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state vertical-scroll-proportion="-1.3098592" vertical-offset="594" max-vertical-offset="1116">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Variable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Variable.scala">
+      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-=======
-      <file leaf-file-name="Predicate.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Predicate.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="680">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Function.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Function.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="680">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-=======
-      <file leaf-file-name="MyParser.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyParser.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="3587">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="MyParser.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MyParser.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3349" max-vertical-offset="4063">
-              <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
-=======
-      <file leaf-file-name="Variable.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Variable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Plus.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Plus.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="323">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-=======
-      <file leaf-file-name="incorrect1.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/incorrect1.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="incorrect2.in" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/incorrect2.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-=======
-      <file leaf-file-name="incorrect2.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/incorrect2.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2567" max-vertical-offset="5066">
-              <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
-=======
-      <file leaf-file-name="correct12.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/correct12.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Disjunction.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Disjunction.scala">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-=======
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1785">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="49077" max-vertical-offset="51986">
-              <caret line="2980" column="0" selection-start-line="2980" selection-start-column="0" selection-end-line="2980" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="2142">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
-                <element signature="e#117596#117597#0" expanded="true" />
+                <element signature="e#870#881#0" expanded="true" />
               </folding>
-=======
-      <file leaf-file-name="incorrect4.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/incorrect4.in">
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Apostrophe.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Apostrophe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="864">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Forall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#930#931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Negation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deductor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Deductor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatorException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnnotatorException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Annotator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Annotator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7596">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="true" />
-    </FindUsagesManager>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/Desktop/lesson2" value="4233604133575" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/Main.scala" />
-        <option value="$PROJECT_DIR$/src/Function.scala" />
-=======
-        <option value="$PROJECT_DIR$/src/Quantifier.scala" />
-        <option value="$PROJECT_DIR$/src/BinOp.scala" />
-        <option value="$PROJECT_DIR$/src/Conjunction.scala" />
-        <option value="$PROJECT_DIR$/src/Disjunction.scala" />
-        <option value="$PROJECT_DIR$/src/Implication.scala" />
-        <option value="$PROJECT_DIR$/src/Exists.scala" />
-        <option value="$PROJECT_DIR$/src/Plus.scala" />
-        <option value="$PROJECT_DIR$/src/Times.scala" />
-        <option value="$PROJECT_DIR$/src/Equals.scala" />
-        <option value="$PROJECT_DIR$/src/Negation.scala" />
-        <option value="$PROJECT_DIR$/src/Apostrophe.scala" />
-        <option value="$PROJECT_DIR$/src/ForAll.scala" />
-        <option value="$PROJECT_DIR$/src/Zero.scala" />
-        <option value="$PROJECT_DIR$/src/Axioms.scala" />
-        <option value="$PROJECT_DIR$/src/Variable.scala" />
-        <option value="$PROJECT_DIR$/src/Main.scala" />
-        <option value="$PROJECT_DIR$/src/Predicate.scala" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-        <option value="$PROJECT_DIR$/incorrect2.in" />
-        <option value="$PROJECT_DIR$/src/MyParser.scala" />
+        <option value="$PROJECT_DIR$/src/ProofLiberator.java" />
+        <option value="$PROJECT_DIR$/src/AbstractExpression.java" />
+        <option value="$PROJECT_DIR$/src/AbstractStatement.java" />
+        <option value="$PROJECT_DIR$/src/Product.java" />
+        <option value="$PROJECT_DIR$/src/Succ.java" />
+        <option value="$PROJECT_DIR$/src/Variable.java" />
+        <option value="$PROJECT_DIR$/src/Zero.java" />
+        <option value="$PROJECT_DIR$/src/Proof.java" />
+        <option value="$PROJECT_DIR$/src/Homework4.java" />
+        <option value="$PROJECT_DIR$/src/LogicalUnits.java" />
+        <option value="$PROJECT_DIR$/src/Disjunction.java" />
+        <option value="$PROJECT_DIR$/src/Conjunction.java" />
+        <option value="$PROJECT_DIR$/src/BinaryOperation.java" />
+        <option value="$PROJECT_DIR$/src/ArithmPattern.java" />
+        <option value="$PROJECT_DIR$/src/Equals.java" />
+        <option value="$PROJECT_DIR$/src/Exists.java" />
+        <option value="$PROJECT_DIR$/src/Function.java" />
+        <option value="$PROJECT_DIR$/src/Implication.java" />
+        <option value="$PROJECT_DIR$/src/Negation.java" />
+        <option value="$PROJECT_DIR$/src/Predicate.java" />
+        <option value="$PROJECT_DIR$/src/Sum.java" />
+        <option value="$PROJECT_DIR$/src/Statement.java" />
+        <option value="$PROJECT_DIR$/src/ProofAnnotator.java" />
+        <option value="$PROJECT_DIR$/src/Pattern.java" />
+        <option value="$PROJECT_DIR$/src/Apostrophe.java" />
+        <option value="$PROJECT_DIR$/src/Deductor.java" />
+        <option value="$PROJECT_DIR$/src/Expression.java" />
+        <option value="$PROJECT_DIR$/src/Forall.java" />
+        <option value="$PROJECT_DIR$/src/Helper.java" />
       </list>
     </option>
   </component>
-  <component name="InvalidFacetManager">
-    <ignored-facets>
-      <facet id="Task4/invalid/Scala" />
-    </ignored-facets>
-  </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
     <option name="height" value="784" />
-=======
-    <option name="x" value="69" />
-    <option name="y" value="-9" />
-    <option name="width" value="1306" />
-    <option name="height" value="786" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -404,9 +189,6 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -421,6 +203,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -429,10 +212,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,18 +249,18 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-<<<<<<< HEAD
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="dynamic.classpath" value="false" />
-=======
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GDrive\Documents\University\Math. logic\logic2014\Task4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Homework4">
+    <configuration default="false" name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Homework4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -465,22 +271,8 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Task4" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -494,14 +286,22 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="singleModule" />
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -567,6 +367,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -586,28 +401,13 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -677,17 +477,13 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Homework4" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Homework4" />
       </list>
     </recent_temporary>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -695,66 +491,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0d2a7a4-a3b0-481b-bfec-0a04669d0aec" name="Default" comment="" />
-      <created>1422591003012</created>
+      <changelist id="ef7a0fd9-341a-4231-97ba-dd0947558468" name="Default" comment="" />
+      <created>1431342073154</created>
       <option name="number" value="Default" />
-      <updated>1422591003012</updated>
+      <updated>1431342073154</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-=======
-    <frame x="69" y="-9" width="1306" height="786" extended-state="6" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-=======
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3857791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281493" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38518518" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14800614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25931677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32526475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740742" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32444444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38518518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -775,25 +546,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-<<<<<<< HEAD
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MyParser.scala</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MyParser.scala</url>
-          <line>145</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
-=======
-      <option name="time" value="3" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -802,554 +555,244 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/incorrect4.in">
+    <entry file="file://$PROJECT_DIR$/Task4.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quantifier.scala">
+    <entry file="file://$PROJECT_DIR$/src/Zero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinOp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="255">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-    <entry file="file://$PROJECT_DIR$/src/Disjunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exists.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conjunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Axioms.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="4522">
-          <caret line="180" column="5" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Expression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForAll.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3332">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinOp.scala">
+    <entry file="file://$PROJECT_DIR$/src/BinaryOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="255">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Implication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quantifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conjunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Times.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Negation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Apostrophe.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForAll.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinOp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect6.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect7.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect8.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect5.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct1.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct8.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct5.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct2.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct10.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/correct9.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-    <entry file="file://$PROJECT_DIR$/correct6.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct11.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="506957">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zero.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-<<<<<<< HEAD
-=======
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plus.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Equals.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exists.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-<<<<<<< HEAD
-=======
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Predicate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="680">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1206">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/correct12.in">
+    <entry file="file://$PROJECT_DIR$/src/Conjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct13.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect4.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Expression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect1.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct9.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct7.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect3.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correct14.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="49077" max-vertical-offset="51986">
-          <caret line="2980" column="0" selection-start-line="2980" selection-start-column="0" selection-end-line="2980" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#117596#117597#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Axioms.scala">
+    <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="8126">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="648">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Disjunction.scala">
+    <entry file="file://$PROJECT_DIR$/src/Exists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/incorrect1.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="684">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect4.in">
+    <entry file="file://$PROJECT_DIR$/src/Homework4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+        <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="2214">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Variable.scala">
+    <entry file="file://$PROJECT_DIR$/src/Implication.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="391">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Plus.scala">
+    <entry file="file://$PROJECT_DIR$/src/ParserException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-=======
-    <entry file="file://$PROJECT_DIR$/incorrect2.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Predicate.scala">
+    <entry file="file://$PROJECT_DIR$/src/Proof.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/Axioms.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="743" max-vertical-offset="8126">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="702">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Function.scala">
+    <entry file="file://$PROJECT_DIR$/src/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/MyParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="3587">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.scala">
+    <entry file="file://$PROJECT_DIR$/src/ArithmPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="2370" max-vertical-offset="4998">
-          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
-=======
-        <state vertical-scroll-proportion="0.11584327" vertical-offset="3859" max-vertical-offset="4981">
-          <caret line="235" column="36" selection-start-line="235" selection-start-column="36" selection-end-line="235" selection-end-column="36" />
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/incorrect2.in">
+    <entry file="file://$PROJECT_DIR$/src/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="387">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="630">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PredicateParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="4374">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyParser.scala">
+    <entry file="file://$PROJECT_DIR$/src/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3349" max-vertical-offset="4063">
-          <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Invalid</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Task4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-compiler</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2718">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deductor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2862">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Apostrophe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnnotatorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="7596">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="864">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Forall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="2142">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#870#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3098592" vertical-offset="594" max-vertical-offset="1116">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
