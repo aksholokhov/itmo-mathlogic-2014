@@ -6,7 +6,7 @@ public class Zero extends Expression {
         return other instanceof Zero;
     }
 
-    protected Expression substituteExpression(Expression haystack, Expression needle) {
+    protected Expression substituteExpression(Expression where, Expression what) {
         return this;
     }
 

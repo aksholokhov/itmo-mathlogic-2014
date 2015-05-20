@@ -9,7 +9,7 @@ public class ArithmPattern extends Expression {
         return other instanceof ArithmPattern && patternId == ((ArithmPattern) other).patternId;
     }
 
-    protected Expression substituteExpression(Expression haystack, Expression needle) {
+    protected Expression substituteExpression(Expression where, Expression what) {
         return this;
     }
 

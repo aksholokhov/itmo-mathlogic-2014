@@ -13,8 +13,8 @@ public class Apostrophe extends Expression {
         }
     }
 
-    protected Expression substituteExpression(Expression haystack, Expression needle) {
-        return new Apostrophe(child.substituteTerm(haystack, needle));
+    protected Expression substituteExpression(Expression where, Expression what) {
+        return new Apostrophe(child.substituteTerm(where, what));
     }
 
     public String toString() {

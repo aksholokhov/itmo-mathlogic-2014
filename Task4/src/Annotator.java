@@ -104,7 +104,6 @@ public class Annotator {
 
         for (lineNo = 0; lineNo < proof.size(); lineNo++) {
             if (lineNo > 0) {
-                // add to lines list
                 if (!lines.containsKey(stmtStr)) {
                     lines.put(stmtStr, lineNo - 1);
                 }
@@ -301,7 +300,6 @@ public class Annotator {
                     }
                 }
 
-                // error while annotating
                 throw new AnnotatorException(stmt, "неизвестное выражение");
             }
         }
@@ -333,8 +331,6 @@ public class Annotator {
             }
             return true;
         }
-
-        // Macaroni below
 
         private void match(Expression a, Expression b) {
             if (a instanceof ArithmPattern) {

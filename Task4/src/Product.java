@@ -16,8 +16,8 @@ public class Product extends Expression {
         }
     }
 
-    protected Expression substituteExpression(Expression haystack, Expression needle) {
-        return new Product(left.substituteTerm(haystack, needle), right.substituteTerm(haystack, needle));
+    protected Expression substituteExpression(Expression where, Expression what) {
+        return new Product(left.substituteTerm(where, what), right.substituteTerm(where, what));
     }
 
     public String toString() {

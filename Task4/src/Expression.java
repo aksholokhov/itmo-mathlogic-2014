@@ -38,5 +38,6 @@ public abstract class Expression {
         return vars;
     }
 
-    protected abstract Expression substituteExpression(Expression haystack, Expression needle);
+    protected abstract Expression substituteExpression(Expression where, Expression what);
+
 }

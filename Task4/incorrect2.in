@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-P(f(a, b))
-=======
 P(x)|-@b?bP(f(b,b))->?bP(f(a,b))
 @b?bP(f(b,b))->?bP(f(a,b))
->>>>>>> f5ac5e8df08c865a777a4b1bc2a07a81eacd8225

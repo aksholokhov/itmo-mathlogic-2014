@@ -27,11 +27,11 @@ public class Function extends Expression {
         }
     }
     
-    protected Expression substituteExpression(Expression haystack, Expression needle) {
+    protected Expression substituteExpression(Expression where, Expression what) {
         ArrayList<Expression> newTerms = new ArrayList<>();
 
         for (Expression term : terms) {
-            newTerms.add(term.substituteTerm(haystack, needle));
+            newTerms.add(term.substituteTerm(where, what));
         }
 
         return new Function(name, newTerms);

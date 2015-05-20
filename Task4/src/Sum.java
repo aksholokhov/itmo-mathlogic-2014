@@ -16,8 +16,8 @@ public class Sum extends Expression {
         }
     }
 
-    protected Expression substituteExpression(Expression haystack, Expression needle) {
-        return new Sum(left.substituteTerm(haystack, needle), right.substituteTerm(haystack, needle));
+    protected Expression substituteExpression(Expression where, Expression what) {
+        return new Sum(left.substituteTerm(where, what), right.substituteTerm(where, what));
     }
 
     public String toString() {

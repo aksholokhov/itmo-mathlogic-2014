@@ -1,4 +1,4 @@
-P(b)|-?aP(a)->(A->A->A)->P(a)
+P(b)|-?aP(a)->(A->A->A)->P(b)
 P(b)
 P(b)->(A->A->A)->P(b)
 (A->A->A)->P(b)

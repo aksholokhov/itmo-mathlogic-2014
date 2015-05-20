@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Homework4 {
     public static void main(String[] args) {
-        String testFilename = "correct11.in";
+        String testFilename = "correct14.in";
 
         PredicateParser parser = new PredicateParser();
 
@@ -16,8 +16,6 @@ public class Homework4 {
         ArrayList<Annotator.AnnotatedStatement> statements = new ArrayList<>();
         
         try {
-            // parse proof 
-            // firstly, parse context
             BufferedReader br = new BufferedReader(new FileReader(testFilename));
             String line = br.readLine();
 
@@ -39,16 +37,13 @@ public class Homework4 {
                 }
             }
             
-            // secondly, parse statements
             while ((line = br.readLine()) != null) {
                 Statement stmt = parser.parse(line);
                 statements.add(new Annotator.Unannotated(stmt));
             }
 
-            // combine context and statements together
             Proof proof = new Proof(context, statements);
 
-            // liberate and annotate proof
             Proof annotatedLiberatedProof = proof.liberate().optimize().annotate();
             ArrayList<Annotator.AnnotatedStatement> proofStatements = annotatedLiberatedProof.getStatements();
 
@@ -95,17 +90,17 @@ public class Homework4 {
                     Statement stmt = annStmt.statement;
                     System.out.print("" + (i + 1) + ") " + stmt + " ");
                     if (annStmt instanceof Annotator.Hypothesis) {
-                        System.out.print("(гип. " + (((Annotator.Hypothesis)annStmt).lineNo + 1) + ")");
+                        System.out.print("(гип. " + (((Annotator.Hypothesis)annStmt).lineNo + 1) + ")");    //гипотеза
                     } else if (annStmt instanceof Annotator.Axiom) {
-                        System.out.print("(акс. " + (((Annotator.Axiom)annStmt).axiomId + 1) + ")");
+                        System.out.print("(акс. " + (((Annotator.Axiom)annStmt).axiomId + 1) + ")");    //аксиома
                     }
                     if (annStmt instanceof Annotator.ModusPonens) {
                         Annotator.ModusPonens mpStmt = (Annotator.ModusPonens)annStmt;
-                        System.out.print("(m.p. " + (mpStmt.alpha + 1) + ", " + (mpStmt.beta + 1) + ")");
+                        System.out.print("(m.p. " + (mpStmt.alpha + 1) + ", " + (mpStmt.beta + 1) + ")"); //modus ponens
                     }
                     if (annStmt instanceof Annotator.InferenceRule) {
                         Annotator.InferenceRule irStmt = (Annotator.InferenceRule)annStmt;
-                        System.out.print("(п.в. " + irStmt.n + ", " + (irStmt.lineNo + 1) + ")");
+                        System.out.print("(п.в. " + irStmt.n + ", " + (irStmt.lineNo + 1) + ")"); //правило вывода
                     }
                     System.out.println();
                 }
