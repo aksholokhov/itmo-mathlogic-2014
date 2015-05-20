@@ -145,6 +145,6 @@ public abstract class Statement {
     protected abstract boolean compareImpl(String[] patterns, Statement other);
 
     abstract Statement substitutePatterns(Statement[] to);
-    abstract Statement substituteTerm(Expression haystack, Expression needle);
+    abstract Statement substituteTerm(Expression where, Expression what);
     abstract boolean estimate(HashMap<String, Boolean> values);
 }

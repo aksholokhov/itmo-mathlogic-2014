@@ -18,8 +18,8 @@ public class Equals extends Statement {
         }
     }
 
-    public Statement substituteTerm(Expression haystack, Expression needle) {
-        return new Equals(left.substituteTerm(haystack, needle), right.substituteTerm(haystack, needle));
+    public Statement substituteTerm(Expression where, Expression what) {
+        return new Equals(left.substituteTerm(where, what), right.substituteTerm(where, what));
     }
 
     public Statement substitutePatterns(Statement[] to) {

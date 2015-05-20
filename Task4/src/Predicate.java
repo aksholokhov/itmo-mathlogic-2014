@@ -28,11 +28,11 @@ public class Predicate extends Statement {
         }
     }
 
-    public Statement substituteTerm(Expression haystack, Expression needle) {
+    public Statement substituteTerm(Expression where, Expression what) {
         ArrayList<Expression> newTerms = new ArrayList<>();
 
         for (Expression term : terms) {
-            newTerms.add(term.substituteTerm(haystack, needle));
+            newTerms.add(term.substituteTerm(where, what));
         }
 
         return new Predicate(name, newTerms);

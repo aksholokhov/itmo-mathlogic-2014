@@ -7,8 +7,31 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Homework4 {
+    public static String[] splitContext(String context) {
+        ArrayList<String> list = new ArrayList<>();
+        int counter = 0;
+        int pos = 0;
+        for (int i = 0; i < context.length(); i++) {
+            if (context.charAt(i) == '(') {
+                counter++;
+            }
+            if (context.charAt(i) == ')') {
+                counter--;
+            }
+            if ((context.charAt(i) == ',' || i == context.length() - 1) && counter == 0) {
+                list.add(context.substring(pos, i == context.length() - 1 ? i+1 : i));
+                pos = i+1;
+            }
+        }
+        String[] ans = new String[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            ans[i] = list.get(i);
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
-        String testFilename = args[0];
+        String testFilename = "test7.out";
 
         PredicateParser parser = new PredicateParser();
 
@@ -20,7 +43,7 @@ public class Homework4 {
             String line = br.readLine();
 
             String[] headStr = line.split("\\|\\-");
-            String[] contextStr = headStr[0].split(",");
+            String[] contextStr = splitContext(headStr[0]);
 
             Statement expectedConclusion = parser.parse(headStr[1]);
             Set<String> freeCtxVars = new HashSet<>();

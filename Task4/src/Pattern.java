@@ -13,7 +13,7 @@ public class Pattern extends Statement {
         return other instanceof Pattern && patternId == ((Pattern) other).patternId;
     }
 
-    public Statement substituteTerm(Expression haystack, Expression needle) {
+    public Statement substituteTerm(Expression where, Expression what) {
         return this;
     }
 

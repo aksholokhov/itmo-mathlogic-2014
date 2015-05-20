@@ -31,10 +31,10 @@ public abstract class BinaryOperation extends Statement {
         }
     }
 
-    public Statement substituteTerm(Expression haystack, Expression needle) {
+    public Statement substituteTerm(Expression where, Expression what) {
         Statement result = null;
         try {
-            result = (Statement) defaultCtor.newInstance(left.substituteTerm(haystack, needle), right.substituteTerm(haystack, needle));
+            result = (Statement) defaultCtor.newInstance(left.substituteTerm(where, what), right.substituteTerm(where, what));
         } catch (InstantiationException ignore) {
         } catch (IllegalAccessException ignore) {
         } catch (InvocationTargetException ignore) {

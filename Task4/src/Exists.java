@@ -17,8 +17,8 @@ public class Exists extends Statement {
         }
     }
 
-    public Statement substituteTerm(Expression haystack, Expression needle) {
-        return new Exists(varName, child.substituteTerm(haystack, needle));
+    public Statement substituteTerm(Expression where, Expression what) {
+        return new Exists(varName, child.substituteTerm(where, what));
     }
 
     public Statement substitutePatterns(Statement[] to) {

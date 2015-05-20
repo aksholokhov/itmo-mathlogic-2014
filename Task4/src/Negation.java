@@ -19,8 +19,8 @@ public class Negation extends Statement {
         return new Negation(child.substitutePatterns(to));
     }
 
-    public Statement substituteTerm(Expression haystack, Expression needle) {
-        return new Negation(child.substituteTerm(haystack, needle));
+    public Statement substituteTerm(Expression where, Expression what) {
+        return new Negation(child.substituteTerm(where, what));
     }
 
     public boolean estimate(HashMap<String, Boolean> values) {
