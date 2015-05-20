@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Homework4 {
     public static void main(String[] args) {
-        String testFilename = "correct14.in";
+        String testFilename = args[0];
 
         PredicateParser parser = new PredicateParser();
 
