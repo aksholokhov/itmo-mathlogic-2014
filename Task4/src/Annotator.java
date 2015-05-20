@@ -198,6 +198,7 @@ public class Annotator {
                         String toSearch = new Implication(stL, subR).toString();
 
                         if (lines.containsKey(toSearch)) {
+
                             if (stL.getFreeVariables().contains(varName)) {
                                 throw new AnnotatorException(lineNo, stmt, "переменная " + varName + " входит свободно в формулу " + stL);
                             } else {
@@ -233,6 +234,11 @@ public class Annotator {
                         String varName = ((Forall) stL).varName;
                         Statement subQ = ((Forall) stL).child;
 
+                        if (subQ.equals(stR) && !subQ.getBoundVariables().contains(varName) && !subQ.getFreeVariables().contains(varName)) {
+                            annotatedProof.add(new Axiom(stmt, 10));
+                            continue;
+                        }
+
                         Function var = new Function(varName, new ArrayList<Expression>());
                         PatternMatcher patternMatcher = new PatternMatcher(false);
                         
@@ -254,6 +260,11 @@ public class Annotator {
                     if (stR instanceof Exists) {
                         String varName = ((Exists) stR).varName;
                         Statement subQ = ((Exists) stR).child;
+
+                        if (subQ.equals(stL) && !subQ.getBoundVariables().contains(varName) && !subQ.getFreeVariables().contains(varName)) {
+                            annotatedProof.add(new Axiom(stmt, 11));
+                            continue;
+                        }
 
                         Function var = new Function(varName, new ArrayList<Expression>());
                         PatternMatcher patternMatcher = new PatternMatcher(false);

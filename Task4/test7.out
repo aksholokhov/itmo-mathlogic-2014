@@ -1,4 +1,2 @@
-!@a?a@b?bP(a,b)|-?a@a?b@b!P(a,b)
-!@a?a@b?bP(a,b)
-!@a?a@b?bP(a,b)->!?a!?a@b?bP(a,b)->!@a?a@b?bP(a,b)
-!?a!?a@b?bP(a,b)->!@a?a@b?bP(a,b)
+W|-@aP(x)->P(x)
+@aP(x)->P(x)
