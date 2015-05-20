@@ -131,6 +131,7 @@ public abstract class Statement {
     }
 
     public boolean freeForSubstitution(String x, Expression theta) {
+        if (x.equals(theta.toString())) return true;
         Set<String> thetaVars = theta.getAllVariables();
         Function var = new Function(x, new ArrayList<Expression>());
         Set<String> freeVars = substituteTerm(var, theta).getFreeVariables();

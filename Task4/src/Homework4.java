@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Homework4 {
     public static void main(String[] args) {
-        String testFilename = args[0];
+        String testFilename = "test6.out";
 
         PredicateParser parser = new PredicateParser();
 
@@ -112,7 +112,7 @@ public class Homework4 {
         } catch (ParserException e) {
             System.err.println("Ошибка при парсинге " + e.getLine());
         } catch (AnnotatorException e) {
-            System.err.println("Ошибка при аннотации " + e.getStatement() + ": " + e.getMessage());
+            System.err.println("Строка "+ (e.getLineNo() + 1) + ": ошибка при аннотации " + e.getStatement() + ": " + e.getMessage());
         }
     }
 }

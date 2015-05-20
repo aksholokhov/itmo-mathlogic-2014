@@ -199,7 +199,7 @@ public class Annotator {
 
                         if (lines.containsKey(toSearch)) {
                             if (stL.getFreeVariables().contains(varName)) {
-                                throw new AnnotatorException(stmt, "переменная " + varName + " входит свободно в формулу " + stL);
+                                throw new AnnotatorException(lineNo, stmt, "переменная " + varName + " входит свободно в формулу " + stL);
                             } else {
                                 // statement is the inference rule 1
                                 int bareLineNo = lines.get(toSearch);
@@ -218,7 +218,7 @@ public class Annotator {
 
                         if (lines.containsKey(toSearch)) {
                             if (stR.getFreeVariables().contains(varName)) {
-                                throw new AnnotatorException(stmt, "переменная " + varName + " входит свободно в формулу " + stR);
+                                throw new AnnotatorException(lineNo, stmt, "переменная " + varName + " входит свободно в формулу " + stR);
                             } else {
                                 // statement is the inference rule 2
                                 int bareLineNo = lines.get(toSearch);
@@ -245,7 +245,7 @@ public class Annotator {
                                 annotatedProof.add(new Axiom(stmt, 10));
                                 continue;
                             } else {
-                                throw new AnnotatorException(stmt, "терм " + theta + " не свободен для подстановки в формулу " + subQ + " вместо переменной " + varName);
+                                throw new AnnotatorException(lineNo, stmt, "терм " + theta + " не свободен для подстановки в формулу " + subQ + " вместо переменной " + varName);
                             }
                         }
                     }
@@ -267,7 +267,7 @@ public class Annotator {
                                 annotatedProof.add(new Axiom(stmt, 11));
                                 continue;
                             } else {
-                                throw new AnnotatorException(stmt, "терм " + theta + " не свободен для подстановки в формулу " + subQ + " вместо переменной " + varName);
+                                throw new AnnotatorException(lineNo, stmt, "терм " + theta + " не свободен для подстановки в формулу " + subQ + " вместо переменной " + varName);
                             }
                         }
                     }
@@ -300,7 +300,7 @@ public class Annotator {
                     }
                 }
 
-                throw new AnnotatorException(stmt, "неизвестное выражение");
+                throw new AnnotatorException(lineNo, stmt, "неизвестное выражение");
             }
         }
 

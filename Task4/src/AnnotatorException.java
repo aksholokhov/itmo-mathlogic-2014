@@ -1,10 +1,12 @@
 public class AnnotatorException extends Exception {
     private final Statement statement;
     private final String message;
+    private final int lineNo;
 
-    public AnnotatorException(Statement statement, String message) {
+    public AnnotatorException(int lineNo, Statement statement, String message) {
         this.statement = statement;
         this.message = message;
+        this.lineNo = lineNo;
     }
 
     public Statement getStatement() {
@@ -14,4 +16,6 @@ public class AnnotatorException extends Exception {
     public String getMessage() {
         return message;
     }
+
+    public int getLineNo() {return lineNo;}
 }
